@@ -1,0 +1,27 @@
+{
+  "name": "url4",
+  "version": "0.0.1",
+  "author": "Imbolc <imbolc@imbolc.name>",
+  "description": "Reversing routes for Express and browser. Like a Rails or Flask url_for method.",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imbolc/express-url4.git"
+  },
+  "keywords": [
+    "routes",
+    "url_for",
+    "reverse",
+    "urlpatterns"
+  ],
+  "devDependencies": {
+    "express"   :  "3.x.x"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": "*"
+  }
+}
