@@ -13,10 +13,12 @@ Tests
 Usage
 -----
     var assert = require('assert');
-    var url4 = require('./')({
+    var url4 = require('url4');
+
+    url4.urls = {
       index: '/',
       users: '/users/:id?'
-    });
+    };
 
     var url = url4('index');
     assert.equal(url, '/');

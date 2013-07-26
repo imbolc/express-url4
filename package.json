@@ -1,6 +1,6 @@
 {
   "name": "url4",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Imbolc <imbolc@imbolc.name>",
   "description": "Reversing routes for Express and browser. Like a Rails or Flask url_for method.",
   "scripts": {
@@ -17,9 +17,6 @@
     "reverse",
     "urlpatterns"
   ],
-  "devDependencies": {
-    "express"   :  "3.x.x"
-  },
   "license": "MIT",
   "engine": {
     "node": "*"
